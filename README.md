@@ -2,6 +2,7 @@
 This repo accompanies the Medium article [A Quick Guide to Hyperparameter Optimization with Optuna](https://medium.com/@cris.lincoleo/a-quick-guide-to-hyperparameter-optimization-with-optuna-1980f1d185dc).  
 It includes the example notebook used in the post so you can explore the code, run the experiments, and tweak the hyperparameter search yourself.  
 Optuna was used to optimize **XGBoost** classifier hyperparameters, especifically, the sampling was applieded to `max_depth`, `n_estimators`, `eta` and `reg_lambda`.  
+
 You can view the rendered notebook here: [![nbviewer](https://img.shields.io/badge/view%20in-nbviewer-orange)](https://nbviewer.org/github/crisbebop/optuna-hyperparam-guide/blob/main/xgboost-optuna-example.ipynb) or in Kaggle (The model was developed in a Kaggle environment) [XGBoost_Optuna_example](https://www.kaggle.com/code/crisbebop/xgboost-optuna-example?scriptVersionId=202840668)
 
 ## The dataset  
