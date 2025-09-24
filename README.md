@@ -37,6 +37,5 @@ The goal is to find the best hyperparameters to improve the score.
 ## Results
 The baseline model achieved a `ROC_AUC` score of **0.9479**, while the optimized model reached **0.9605** after 30 trials.  
 In the search, the most important hyperparameter was `max_depth`.  
-<img width="828" height="525" alt="hyperpareters_importance" src="https://github.com/user-attachments/assets/e720dda9-0df7-47bf-937b-5a6d0712e4e0" />
 
 
